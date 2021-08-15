@@ -1,4 +1,7 @@
 package Week5;
 
-public class Logger {
+public interface Logger {
+    void Log(String log);
+    void Error(String error);
+
 }
